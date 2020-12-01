@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CleanArchitecture.WebUI</name>
+    </assembly>
+    <members>
+        <member name="M:CleanArchitecture.WebUI.Controllers.IssuesController.GetIssuesWithPagination(CleanArchitecture.Application.Issues.Queries.GetIssuesWithPagination.GetIssuesWithPaginationQuery)">
+            <summary>
+            Get Issues With Pagination
+            </summary>
+            <param name="query">Get Issues With Pagination Query</param>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchitecture.WebUI.Controllers.IssuesController.Create(CleanArchitecture.Application.Issues.Commands.CreateIssue.CreateIssueCommand)">
+            <summary>
+            Create Issue
+            </summary>
+            <param name="command">Create Issue Command</param>
+            <returns>Issue Id</returns>
+        </member>
+        <member name="M:CleanArchitecture.WebUI.Controllers.IssuesController.Update(System.Int32,CleanArchitecture.Application.Issues.Commands.UpdateIssue.UpdateIssueCommand)">
+            <summary>
+            Update Issue
+            </summary>
+            <param name="id">Issue Id</param>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchitecture.WebUI.Controllers.IssuesController.UpdateItemDetails(System.Int32,CleanArchitecture.Application.Issues.Commands.UpdateIssueStatus.UpdateIssueStatusCommand)">
+            <summary>
+            Update Issue Status
+            </summary>
+            <param name="id">Issue Id</param>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchitecture.WebUI.Controllers.IssuesController.Delete(System.Int32)">
+            <summary>
+            Delete Issue
+            </summary>
+            <param name="id">Issue Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchitecture.WebUI.Controllers.ParticipantsController.GetAll">
+            <summary>
+            Get all Participants
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchitecture.WebUI.Controllers.ParticipantsController.Get(System.Int32)">
+            <summary>
+            Get Participant details
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchitecture.WebUI.Controllers.ParticipantsController.Create(CleanArchitecture.Application.Participants.Commands.CreateParticipant.CreateParticipantCommand)">
+            <summary>
+            Create Participant
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchitecture.WebUI.Controllers.ParticipantsController.Update(System.Int32,CleanArchitecture.Application.Participants.Commands.UpdateParticipant.UpdateParticipantCommand)">
+            <summary>
+            Update Participant
+            </summary>
+            <param name="id"></param>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchitecture.WebUI.Controllers.ParticipantsController.Delete(System.Int32)">
+            <summary>
+            Delete Participant
+            </summary>
+            <param name="id">Participant Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchitecture.WebUI.Controllers.ProjectsController.GetAll">
+            <summary>
+            Get All Projects
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchitecture.WebUI.Controllers.ProjectsController.Get(System.Int32)">
+            <summary>
+            Get Project Details
+            </summary>
+            <param name="id">Project Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchitecture.WebUI.Controllers.ProjectsController.GetIssuesList(System.Int32,CleanArchitecture.Application.Projects.Queries.GetProjectIssuesList.GetProjectIssuesListQuery)">
+            <summary>
+            Get Project Issues
+            </summary>
+            <param name="id">Project Id</param>
+            <param name="query">filteration</param>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchitecture.WebUI.Controllers.ProjectsController.GetParticipantsList(System.Int32,CleanArchitecture.Application.Projects.Queries.GetProjectParticipantsList.GetProjectParticipantsListQuery)">
+            <summary>
+            Get Project Participants
+            </summary>
+            <param name="id">Project Id</param>
+            <param name="query">filteration</param>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchitecture.WebUI.Controllers.ProjectsController.Create(CleanArchitecture.Application.Projects.Commands.CreateProject.CreateProjectCommand)">
+            <summary>
+            Create new project
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchitecture.WebUI.Controllers.ProjectsController.Update(System.Int32,CleanArchitecture.Application.Projects.Commands.UpdateProject.UpdateProjectCommand)">
+            <summary>
+            Update Project
+            </summary>
+            <param name="id">Project Id</param>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchitecture.WebUI.Controllers.ProjectsController.AddParticipant(System.Int32,CleanArchitecture.Application.Projects.Commands.AddProjectParticipant.AddProjectParticipantCommand)">
+            <summary>
+            Add Project Participant
+            </summary>
+            <param name="id">Project Id</param>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchitecture.WebUI.Controllers.ProjectsController.Delete(System.Int32)">
+            <summary>
+            Delete Project
+            </summary>
+            <param name="id">Project Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchitecture.WebUI.Controllers.ProjectsController.RemoveParticipant(System.Int32,CleanArchitecture.Application.Projects.Commands.RemoveProjectParticipant.RemoveProjectParticipantCommand)">
+            <summary>
+            Remove Project Participant
+            </summary>
+            <param name="id">Project Id</param>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
